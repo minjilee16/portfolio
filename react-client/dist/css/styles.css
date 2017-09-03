@@ -14,7 +14,7 @@ br {
   /*font-size: 50px;*/
   letter-spacing: 3px;
   display: inline-block;
-  /*font-family: "Goudy Old Style", Garamond, "Big Caslon";*/
+  font-family: /*'Teko', sans-serif;*/
   text-transform: none;
   margin-bottom: 0;
   margin-top: 0;
@@ -94,5 +94,28 @@ br {
 
 .hack {
   margin-left: 1.2em;
-  /*margin-bottom: 1.5em;*/
+}
+
+.work-pic {
+  width: 400px;
+  height: 600px;
+  /*background-color: pink;*/
+  background-image: url(../img/main22.jpg)
+}
+
+.works {
+  border: 5px solid black;
+  border-radius: 8px;
+  padding: 1em;
+  margin: 2em;
+  justify-content: center;
+  /*text-align: center;*/
+} 
+
+.gallery {
+  justify-content: center;
+}
+
+.work-img {
+  margin: auto;
 }

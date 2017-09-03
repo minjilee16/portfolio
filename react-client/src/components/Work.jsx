@@ -7,32 +7,59 @@ import Thumbnail from 'react-bootstrap/lib/Thumbnail';
 
 const Work = (props) => (
   <section id="download" className="work-section content-section text-center">
-  <Grid>
-    <Row>
-    <Col xs={6} md={3}>
-      <Thumbnail href="#" alt="171x180" src="../../dist/img/intro-bg.jpg" />
-    </Col>
-    <Col xs={6} md={3}>
-      <Thumbnail href="#" alt="171x180" src="../../dist/img/intro-bg.jpg" />
-    </Col>
-    <Col xs={6} md={3}>
-      <Thumbnail href="#" alt="171x180" src="../../dist/img/intro-bg.jpg" />
-    </Col>
-    </Row>
-  </Grid>
+    <h2>Work</h2> 
+
+    <Grid>
+      <Row className="gallery">
+        <Col className="works" xs={4} md={3}>
+          <img className="work-img" src="../../dist/img/main22.jpg" width="200px" height="180px"/>
+          <h3>Splitter</h3>
+          <p>Full Stack</p>
+        </Col>
+        <Col className="works" xs={4} md={3}>
+          <img className="work-img" src="./main22.jpg" width="200px" height="180px"/>
+          <Thumbnail src="/main22.jpg" alt="242x200">
+            <h3>Event Planner</h3>
+            <p>Description</p>
+          </Thumbnail>
+        </Col>
+        <Col className="works" xs={4} md={3}>
+          <img className="work-img" src="main22.jpg" width="200px" height="180px"/>
+          <Thumbnail src="/main22.jpg" alt="242x200">
+            <h3>Thumbnail label</h3>
+            <p>Description</p>
+          </Thumbnail>
+        </Col>
+      </Row>
+      <Row className="gallery">
+      <Col className="works" xs={4} md={3}>
+        <img className="work-img" src="/main22.jpg" width="200px" height="180px"/>
+        <Thumbnail src="/main22.jpg" alt="242x200">
+          <h3>Splitter</h3>
+          <p>splliter is single showeralsdkfjalskdjflkj </p>
+        </Thumbnail>
+      </Col>
+      <Col className="works" xs={4} md={3}>
+        <Thumbnail src="/main22.jpg" alt="242x200">
+          <h3>Thumbnail label</h3>
+          <p>Description</p>
+  
+        </Thumbnail>
+      </Col>
+      <Col className="works" xs={4} md={3}>
+        <Thumbnail src="/main22.jpg" alt="242x200">
+          <h3>Thumbnail label</h3>
+          <p>Description</p>
+
+        </Thumbnail>
+      </Col>
+      </Row>
+
+
+    </Grid>
+
   </section>
 )
 
 export default Work;
 
-
-
-  // <section id="download" className="download-section content-section text-center">
-  //   <div className="container">
-  //     <div className="col-lg-8 mx-auto">
-  //       <h2>Work</h2>
-  //       <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-  //       <a href="http://startbootstrap.com/template-overviews/grayscale/" className="btn btn-default btn-lg">Visit Download Page</a>
-  //     </div>
-  //   </div>
-  // </section>

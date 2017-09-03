@@ -72,11 +72,11 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
-*,
+/**,
 *::before,
 *::after {
   box-sizing: inherit;
-}
+}*/
 
 @-ms-viewport {
   width: device-width;
