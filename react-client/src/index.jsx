@@ -1,36 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
-import List from './components/List.jsx';
+import Introduction from './components/Introduction.jsx';
+import Work from './components/Work.jsx';
+import Contact from './components/Contact.jsx';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { 
-      items: []
-    }
-  }
 
-  componentDidMount() {
-    // $.ajax({
-    //   url: '/items', 
-    //   success: (data) => {
-    //     this.setState({
-    //       items: data
-    //     })
-    //   },
-    //   error: (err) => {
-    //     console.log('err', err);
-    //   }
-    // });
-  }
+const App = (props) => (
+  <div id="page-top">
+    <Introduction />
+    <Work />
+    <Contact />
+  </div>
+)
 
-  render () {
-    return (<div>
-      <h1>Item Listasda helldd</h1>
-      
-    </div>)
-  }
-}
 
 ReactDOM.render(<App />, document.getElementById('app'));
