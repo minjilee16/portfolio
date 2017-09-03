@@ -34,3 +34,23 @@ br {
 .minji {
   margin-right: 20px;
 }
+
+.about-me {
+  margin-top: 0;
+  padding: 20px;
+  color: #01FECC;
+}
+
+.intro {
+  padding-top:50px;
+  padding-bottom: 60px;
+}
+
+.intro-paragraph {
+  line-height: 30px;
+  padding: 20px;
+}
+
+.intro-sub {
+  color: #01FECC;
+}
