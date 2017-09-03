@@ -20,6 +20,10 @@ br {
   margin-top: 0;
 }
 
+.intro-text {
+  padding: 0.3em;
+}
+
 .name {
   margin-top: 30px;
   color: #01FECC;
@@ -49,8 +53,46 @@ br {
 .intro-paragraph {
   line-height: 30px;
   padding: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: "HelveticaNeue-Light";
 }
 
 .intro-sub {
   color: #01FECC;
+}
+
+::selection {
+  color: #01FECC;
+  background: pink;
+}
+
+.education {
+  margin-top: 1em;
+}
+
+.school-name {
+  color: #01FECC;
+}
+
+.school-level {
+  font-style: italic;
+  color: pink;
+}
+
+.bachelor {
+  margin-left: 1.2em;
+  /*margin-right: 1em;*/
+  margin-bottom: 2.5em;
+}
+
+.master {
+  margin-left: 1.2em;
+  /*margin-right: 1em;*/
+  margin-bottom: 2.5em;
+}
+
+.hack {
+  margin-left: 1.2em;
+  /*margin-bottom: 1.5em;*/
 }
