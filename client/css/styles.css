@@ -529,3 +529,24 @@ iframe {
 .logo-img:hover {
   background-image: url('img/minji-green.png');
 }
+
+.category {
+  padding: 2em;
+}
+
+.category-text {
+  text-align: left;
+  font-style: bold;
+  padding: 0;
+}
+
+.cate-bar {
+  width: 6em;
+  height: 2px;
+  background-color: #01FECC;
+  margin-bottom: 20px;
+}
+
+.engineering {
+  width: 10.3em;
+}
