@@ -9,10 +9,8 @@ app.use(bodyParser.urlencoded({
 }))
 // parse application/json 
 app.use(bodyParser.json())
-// var connection = require('../database-mysql'); 
 
-// UNCOMMENT FOR REACT
-app.use(express.static(__dirname + '/../react-client/dist'));
+app.use(express.static(__dirname + '/../client'));
 
 
 
