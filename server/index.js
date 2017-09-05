@@ -7,13 +7,9 @@ var app = express();
 app.use(bodyParser.urlencoded({
     extended: true
 }))
-// parse application/json 
+
 app.use(bodyParser.json())
-
 app.use(express.static(__dirname + '/../client'));
-
-
-
 
 
 app.listen(8000, function() {
