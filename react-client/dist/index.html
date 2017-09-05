@@ -523,25 +523,53 @@
       <p class="footer-text">&copy; Copyright <b>Minji Lee</b>. All Rights Reserved</p>
     </div>
   </footer>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/popper/popper.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
+  <script type="text/javascript" src="bundle.js"></script>
+
+  <script language="javascript" type="text/javascript" src="jquery-1.8.2.js"></script>
   <script type="text/javascript">
+    $(function(){
+      $('.close-button').click(function(){      
+          $('iframe').attr('src', $('iframe').attr('src'));
+      });
+    });
 
-    const motions = document.querySelectorAll('.motion-graphics');
-    // const videos = document.querySelectorAll('.html5-video-player');
-    const videos = document.querySelectorAll('iframe');
-    const closeButtons = document.querySelectorAll('.close-button');
+    
+    // const motions = document.querySelectorAll('.motion-graphics');
+    // // const videos = document.querySelectorAll('.html5-video-player');
+    // const videos = document.querySelectorAll('iframe');
+    // const closeButtons = document.querySelectorAll('.close-button');
 
-    const stopPlaying = function () {
-      console.log('video',videos);
+    // const stopPlaying = function () {
+    //   // console.log('video',videos);
 
-      videos.forEach( video => video.stopVideo() );
-    }
+    //   videos.forEach( video => { 
+    //     video.getAttribute('src', video.getAttribute('src')); 
+    //     console.log('checkinnnnnnngggggg')
+    //     return false; 
+    //   });
+    // }
 
 
-    closeButtons.forEach( button => button.addEventListener('click', stopPlaying ) )
+    // closeButtons.forEach( button => button.addEventListener('click', stopPlaying ) )
 
-    console.log(videos);
+    // console.log(videos);
 
-
+//     jQuery(".fancybox-close").click(function() {
+//       // changes the iframe src to prevent playback or stop the video playback in our case
+//       $('.youtube-iframe').each(function(index) {
+//         $(this).attr('src', $(this).attr('src')); return false;
+//       });
+      
+// //click function
+//     });
     // const tiktok = document.querySelector('.tiktok');
     // // console.log(tiktok)
     // tiktok.onclick= function () {
@@ -560,14 +588,6 @@
 
 
   </script>
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/popper/popper.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <!-- Custom scripts for this template -->
-  <script src="js/grayscale.min.js"></script>
-  <script type="text/javascript" src="bundle.js"></script>
 
 </body>
 </html>
