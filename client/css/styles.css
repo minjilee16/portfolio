@@ -166,6 +166,7 @@ a:focus,a:hover{text-decoration:none;color:#1d9b6c}
 .btn-circle:focus, .btn-circle:hover { 
   color: black;
   outline:0;
+  opacity: 0.3;
   background:#01FECC;
 }
 
@@ -549,4 +550,13 @@ iframe {
 
 .engineering {
   width: 10.3em;
+}
+
+
+#ashley .modal-body, #ashley-newsletter .modal-body{
+  background-color: #F6F5F5;
+}
+
+#rowkin-newsletter .modal-body, #rowkin .modal-body {
+  background-color: #e7e7e7; 
 }
